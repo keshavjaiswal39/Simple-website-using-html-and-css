@@ -150,12 +150,12 @@ a:hover
 
 
 #upBtn:hover{
-    background-color: gray;
+    background-color: black;
     border-radius: 50%;
 }
 
 #downBtn:hover{
-    background-color: gray;
+    background-color: black;
     border-radius: 50%;
 }
 
