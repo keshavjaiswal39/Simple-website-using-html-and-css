@@ -22,6 +22,11 @@ nav{
     font-weight: bold;
 }
 
+a:hover
+{
+    background-color: black;
+}
+
 .logo{
     flex-basis: 20%;
 }
@@ -43,6 +48,7 @@ nav{
 
 .nav-links ul li a{
     color: #fff;
+    padding: 15px;
     text-decoration:none;
 }
 
@@ -124,20 +130,33 @@ nav{
     text-align: center;
 }
 
-.controls h3{
+.controls h1{
     margin: 15px 0;
     color: white;
 }
 
 #upBtn{
+    padding: 10px;
     width: 15px;
     cursor: pointer;
 }
 
 #downBtn{
+    padding: 10px;
     width: 15px;
     cursor: pointer;
     transform: rotate(180deg);
+}
+
+
+#upBtn:hover{
+    background-color: gray;
+    border-radius: 50%;
+}
+
+#downBtn:hover{
+    background-color: gray;
+    border-radius: 50%;
 }
 
 .overlay{
